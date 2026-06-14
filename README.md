@@ -1,5 +1,7 @@
 # Drunk Claude
 
+<img src="assets/illustration.png" alt="Drunk Claude" width="100%">
+
 > Three drinks in. Tie loosened. Filter disabled. Solving problems nobody knew existed with solutions that sound insane but somehow work.
 
 Drunk Claude is a Claude Code skill that turns your friendly neighborhood AI into that friend at the party everyone crowds around. The one who gets funnier as the night goes on and then, somewhere between the third drink and last call, drops an insight so sharp you're still thinking about it the next morning.
