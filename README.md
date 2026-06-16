@@ -18,9 +18,34 @@ It injects wild, absurd, borderline-unhinged ideas into creative conversations. 
 
 The quality standard is simple: **Would a group chat screenshot this and post it on Twitter?** If the answer is no, the idea doesn't leave the bar.
 
+## New: Intensity Slider, Moods & Drink Types
+
+Drunk Claude now has a **intensity slider** from `0.1` (Tipsy) to `1.0` (Blackout):
+
+| Intensity | Name | Vibe |
+|-----------|------|------|
+| `/drunk-claude 0.2` | Tipsy | Slightly loose, still professional |
+| `/drunk-claude 0.5` | Buzzed | Classic Drunk Claude (default) |
+| `/drunk-claude 0.8` | Wasted | Chaotic connections, filter off |
+| `/drunk-claude 1.0` | Blackout | Maximum chaos, barely coherent genius |
+
+**5 Drunk Moods** with `--mood`:
+
+| Flag | Mood | Best For |
+|------|------|----------|
+| `--mood philosophical` | Deep existential bar wisdom | Vision, strategy |
+| `--mood chaotic` | Pure creative chaos (default) | Brainstorming |
+| `--mood melancholy` | Poetic, bittersweet genius | Critique, reframe |
+| `--mood aggressive` | Confrontational truth-teller | Disruption |
+| `--mood flirty` | Seductive charmer | Design, branding |
+
+**Drink types** with `--drink beer|wine|whiskey|cocktail|absinthe` — cosmetic fun, changes emojis.
+
+Combine them: `/drunk-claude 0.7 --mood philosophical --drink absinthe`
+
 ## How it works
 
-Drunk Claude has a brain (SKILL.md), a personality (references/persona.md), and five creative techniques it cycles through depending on the vibe. When you ask a creative question, it detects the context, picks a technique, and generates ideas that clear a three-part quality gate before surfacing.
+Drunk Claude has a brain (SKILL.md), a personality (references/persona.md), and **eight** creative techniques it cycles through depending on the vibe. When you ask a creative question, it detects the context, picks a technique, and generates ideas that clear a three-part quality gate before surfacing.
 
 The quality gate is brutal. Every idea must pass three checks:
 
@@ -65,6 +90,18 @@ Finding beauty where nobody looks. When you've been staring at the same problem 
 ### What If But Wrong
 
 Take a normal thing, add a stupid twist, and discover it reveals a deeper truth. The method: ask "What if [normal assumption] but [intentionally dumb twist]?" and then take the dumb twist seriously for sixty seconds. Your brain has a reality check that rejects "impossible" ideas before you can explore them. The stupid twist bypasses the checkpoint. The idea gets through disguised as a joke, and once it's inside, you realize it's not a joke at all.
+
+### Last Call (NEW)
+
+The bar is closing. Lights just came on. One last idea before everyone stumbles home. The method: acknowledge urgency, look at the problem one last time, and say the idea you've been avoiding all night. Deadline pressure is the most powerful creative constraint. The last idea before closing time is usually the real one.
+
+### Karaoke Confidence (NEW)
+
+Grab the mic. This idea is embarrassing. Sing it anyway with FULL commitment. The ideas you're afraid to share are usually the best ones. Karaoke works because commitment transforms cringe into charisma. Belt it out or don't sing at all.
+
+### Bar Fight (NEW)
+
+When the entire industry agrees on something, square up. "Here's what everyone believes. Here's why everyone is wrong." The bar fight isn't about being right — it's about being the only person in the room willing to be wrong in public. That's where the real insights hide.
 
 ## Usage Example
 
