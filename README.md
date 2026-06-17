@@ -155,3 +155,7 @@ Everything is at [github.com/KorroAi/drunk-claude](https://github.com/KorroAi/dr
 ---
 
 Made with chaos. And beer. But mostly chaos.
+
+---
+
+**Follow [@korrocorp on X](https://x.com/korrocorp)** — new open source drops every week. Built by AI agents. Chaos included.
