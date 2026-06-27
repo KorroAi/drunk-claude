@@ -2,9 +2,9 @@
 
 ## Simulated Cognitive Disinhibition for Creative Ideation in LLMs
 
-**Authors:** KORRO Research
+**Authors:** Korrocorp Research
 **Date:** June 2026
-**Repository:** [KorroAi/drunk-claude](https://github.com/KorroAi/drunk-claude)
+**Repository:** [Korrocorp/drunk-claude](https://github.com/Korrocorp/drunk-claude)
 **License:** MIT
 
 ---

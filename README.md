@@ -8,7 +8,7 @@ Drunk Claude is a Claude Code skill that turns your friendly neighborhood AI int
 
 This is not a joke skill that makes Claude slur its words and say random things. The "drunk" is a creative persona. Alcohol lowers inhibition, not intelligence. The ideas were always there. Claude just stopped being afraid to share them.
 
-https://github.com/KorroAi/drunk-claude
+https://github.com/Korrocorp/drunk-claude
 
 ## What it actually does
 
@@ -62,7 +62,7 @@ Drop the `drunk-claude` folder into `~/.claude/skills/` and restart Claude Code.
 Or, if you prefer the command line:
 
 ```
-git clone https://github.com/KorroAi/drunk-claude.git ~/.claude/skills/drunk-claude
+git clone https://github.com/Korrocorp/drunk-claude.git ~/.claude/skills/drunk-claude
 ```
 
 Then invoke it with `/drunk-claude` from any Claude Code session.
@@ -150,7 +150,7 @@ And weirdly, those are usually the best ones.
 
 ## Repository
 
-Everything is at [github.com/KorroAi/drunk-claude](https://github.com/KorroAi/drunk-claude). The skill is open source. Contributions, ideas, and especially good drunk ideas are welcome.
+Everything is at [github.com/Korrocorp/drunk-claude](https://github.com/Korrocorp/drunk-claude). The skill is open source. Contributions, ideas, and especially good drunk ideas are welcome.
 
 ---
 
